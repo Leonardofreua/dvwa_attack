@@ -12,3 +12,8 @@ The validation of the Name field is not testing the case sensitive of the script
 Obs.: Still no character limit validation on backend.
 
 <SCRIPT>alert(1)</SCRIPT>
+
+[HIGH]
+The Name field is allowing HTML events:
+
+<img src=x onerror="alert('1')"/>
