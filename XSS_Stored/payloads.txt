@@ -5,3 +5,10 @@ Either Name or Message field allows script injection:
 
 Obs.: There isn`t character limit validation on backend (only in HTML). So,
 if we remove the maxlength value and we can send any payload containing a script.
+
+[MEDIUM]
+The validation of the Name field is not testing the case sensitive of the script tag:
+
+Obs.: Still no character limit validation on backend.
+
+<SCRIPT>alert(1)</SCRIPT>
