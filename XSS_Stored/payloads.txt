@@ -1,0 +1,7 @@
+[LOW]
+Either Name or Message field allows script injection:
+
+<script>alert("1");</script>
+
+Obs.: There isn`t character limit validation on backend (only in HTML). So,
+if we remove the maxlength value and we can send any payload containing a script.
